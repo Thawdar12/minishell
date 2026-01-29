@@ -2,6 +2,7 @@ Minishell Overview
 
 Directory Structure
 
+```
 minishell/
 ├── include/               # Header files
 │   └── minishell.h
@@ -9,13 +10,14 @@ minishell/
 │   ├── main/
 │   │   └── main.c         # Entry point
 │   └── lexer/
-│       ├── lexer.c        # Lexer main function
-│       ├── lexer_utils.c  # Token list functions & operator handling
-│       └── lexer_extract_utils.c # Functions to extract words and quotes
+│       ├── lexer.c       # Lexer main function
+│       ├── lexer_utils.c # Token list functions & operator handling
+│       └── lexer_extract_utils.c # Word & quote extraction
 ├── libft/                 # Libft library
 ├── obj/                   # Object files (generated)
 ├── Makefile
 └── README.md
+```
 
 Lexer Overview
 
