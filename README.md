@@ -1,4 +1,3 @@
-# minishell
 Minishell Overview
 
 Directory Structure
